@@ -16,14 +16,14 @@ This Laravel-based Job Board application provides an advanced filtering system s
 ### Requirements
 - PHP 8.1+
 - Laravel 10+
-- MySQL or PostgreSQL
+- MySQL
 - Composer
 - Postman (for API testing)
 
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/job-board.git
+   git clone https://github.com/imhaji/JobBoard.git
    cd job-board
    ```
 2. Install dependencies:
