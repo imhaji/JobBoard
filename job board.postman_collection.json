@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "6727ad14-1c6e-4f57-b4ed-f4a7b66d112d",
+		"name": "job board",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19916560"
+	},
+	"item": [
+		{
+			"name": "127.0.0.1:8000/api/jobs?filter=job_type=full-time",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/api/jobs?filter=job_type=full-time",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"jobs"
+					],
+					"query": [
+						{
+							"key": "filter",
+							"value": "job_type=full-time"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
